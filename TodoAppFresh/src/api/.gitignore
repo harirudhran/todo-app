@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Backend secrets
+.env
+
+# React Native / Android build output
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/app/*.keystore
+ios/build/
+ios/Pods/
+
+# Logs
+*.log
+
+# Leftover/unused folders from earlier setup — exclude entirely
+TodoApp/
+TodoApp_broken/
+todo-app/frontend/
